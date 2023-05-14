@@ -39,7 +39,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("Your AI Partner『食品EC販売アドバイザー』")
-st.image("3foodec.jpy")
+st.image("5foodec.jpy")
 st.write("ChatGPT APIを使ったAIパートナーです")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
